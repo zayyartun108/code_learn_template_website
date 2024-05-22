@@ -1,0 +1,160 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+:root {
+  --one-color: #0d6efd;
+  --two-color: #f72cec;
+  --three-color: #fd7e14;
+  --four-color: #fff;
+}
+.sub-heading{
+  font-size: 3rem;
+  color:#ffffff;
+  text-align: center;
+
+}
+section{
+  padding:50px;
+}
+.main-heading{
+  font-size: 1rem;
+  color:white;
+  text-align: center;
+}
+.heading-line{
+  width: 100px;
+  height: 3px;
+  background:var(--three-color);
+  margin:20px auto;
+}
+body{
+  background: linear-gradient(to left, #f72cec, #0d6efd);
+
+}
+.py-5 :is(h1,h3){
+  font-weight: 700;
+  -webkit-text-stroke:1px var(--two-color);
+}
+nav {
+  background: linear-gradient(to left, #f72cec, #0d6efd);
+}
+
+header {
+  width: 100%;
+  min-height: 600px;
+  position: relative;
+
+}
+
+header video {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  z-index: -3;
+}
+
+header .overlay {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+
+  background: linear-gradient(to left, #f72ced, #0d6dfd);
+  mix-blend-mode: overlay;
+}
+
+.service-card{
+  overflow: hidden;
+  padding:5px;
+
+}
+.service-img img{
+  width: 100%;
+
+}
+.service-img img{
+  display: flex;
+  align-items: center;
+  object-fit: cover;
+  transition: 0.4s;
+}
+.service-card img:hover {
+  transform: scale(0.94);
+
+}
+.learn-2{
+  position: relative;
+  overflow: hidden;
+}
+.recommeded{
+  width:200px;
+  background-color: white;
+  position: absolute;
+  right:-50px;
+  top:20px;
+  transform: rotate(30deg);
+ 
+}
+.test-card{
+  width: 100%;
+}
+.fullimg img{
+  width: 100%;
+  object-fit: cover;
+}
+.carousel-control-prev{
+  position: absolute;
+  left:-8px;
+}
+.carousel-control-prev-icon{
+  width: 30px;
+  height: 30px;
+  background: var(--three-color);
+  border-radius: 3px;
+}
+.carousel-control-next{
+  position: absolute;
+  right:-8px;
+}
+.carousel-control-next-icon{
+  width: 30px;
+  height: 30px;
+  background: var(--three-color);
+  border-radius: 3px;
+}
+.carousel-indicators button[type="button"]{
+  height: 10px;
+  margin-top:50px;
+}
+.hoverimg{
+  width: 100%;
+  transition: 0.4s;
+}
+.hoverimg:hover {
+  transform: scale(1.1);
+}
+.accordion-button:not(.collapsed){
+  background:#f72ced;
+  color:white;
+}
+#contact{
+  background-image:url(wp9922647.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.hing{
+  right:50px;
+  bottom:50px;
+  z-index: 10;
+}
